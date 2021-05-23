@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<style>
+			body {
+				margin: 0;
+				overflow: hidden;
+			}
+			iframe {
+				width: 100vw;
+				height: calc(100vw / 1.77);
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			const id = document.location.hash.slice(1);
+			const iframe = document.createElement("iframe");
+			iframe.src = "https://www.youtube.com/embed/" + id;
+			iframe.frameBorder = "0";
+			document.body.appendChild(iframe);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+{
+	"name": "electron-on-touch-bar",
+	"version": "1.0.0",
+	"main": "main.js",
+	"dependencies": {
+		"electron": "^13.0.0-beta.28"
+	},
+	"scripts": {
+		"start": "electron ."
+	}
+}
