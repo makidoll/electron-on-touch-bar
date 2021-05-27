@@ -6,6 +6,7 @@
 		"electron": "^13.0.0-beta.28"
 	},
 	"scripts": {
-		"start": "electron ."
+		"start": "electron .",
+		"on-dock": "electron on-dock.js"
 	}
 }
